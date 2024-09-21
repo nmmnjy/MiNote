@@ -32,7 +32,7 @@ import net.micode.notes.tool.ResourceParser;
 import net.micode.notes.ui.NoteEditActivity;
 import net.micode.notes.ui.NotesListActivity;
 
-public abstract class NoteWidgetProvider extends AppWidgetProvider {
+public abstract class NoteWidgetProvider extends AppWidgetProvider {//桌面挂件
     public static final String [] PROJECTION = new String [] {
         NoteColumns.ID,
         NoteColumns.BG_COLOR_ID,

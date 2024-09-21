@@ -38,7 +38,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 
-public class SqlNote {
+public class SqlNote {//与sqlData相似，sqlNote主要用于管理数据库中的便签数据
     private static final String TAG = SqlNote.class.getSimpleName();
 
     private static final int INVALID_ID = -99999;

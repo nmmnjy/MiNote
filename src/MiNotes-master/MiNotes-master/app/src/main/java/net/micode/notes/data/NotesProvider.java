@@ -35,7 +35,7 @@ import net.micode.notes.data.Notes.NoteColumns;
 import net.micode.notes.data.NotesDatabaseHelper.TABLE;
 
 
-public class NotesProvider extends ContentProvider {
+public class NotesProvider extends ContentProvider {//数据库帮助类、帮助创建、处理数据库
     private static final UriMatcher mMatcher;
 
     private NotesDatabaseHelper mHelper;

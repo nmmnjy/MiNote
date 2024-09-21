@@ -61,7 +61,7 @@ import java.util.zip.Inflater;
 import java.util.zip.InflaterInputStream;
 
 
-public class GTaskClient {
+public class GTaskClient {//Gtask客户端、用于Gtask的登录操作，进行Gtask的各种操作以及获取任务和任务列表的内容
     private static final String TAG = GTaskClient.class.getSimpleName();
 
     private static final String GTASK_URL = "https://mail.google.com/tasks/";

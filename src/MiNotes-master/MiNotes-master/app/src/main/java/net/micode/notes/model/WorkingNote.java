@@ -32,7 +32,7 @@ import net.micode.notes.data.Notes.TextNote;
 import net.micode.notes.tool.ResourceParser.NoteBgResources;
 
 
-public class WorkingNote {
+public class WorkingNote {//当前活动便签项模型
     // Note for the working note
     private Note mNote;
     // Note Id

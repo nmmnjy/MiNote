@@ -16,7 +16,7 @@
 
 package net.micode.notes.gtask.exception;
 
-public class NetworkFailureException extends Exception {
+public class NetworkFailureException extends Exception {//小米便签运行过程中的网络异常处理
     private static final long serialVersionUID = 2107610287180234136L;
 
     public NetworkFailureException() {

@@ -35,7 +35,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 
 
-public class DataUtils {
+public class DataUtils {//便签数据处理工具类，封装了各种数据的操作函数
     public static final String TAG = "DataUtils";
     public static boolean batchDeleteNotes(ContentResolver resolver, HashSet<Long> ids) {
         if (ids == null) {

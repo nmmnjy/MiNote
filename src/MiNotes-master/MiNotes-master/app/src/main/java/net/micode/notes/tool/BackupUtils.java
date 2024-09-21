@@ -36,7 +36,7 @@ import java.io.IOException;
 import java.io.PrintStream;
 
 
-public class BackupUtils {
+public class BackupUtils {//备份工具类，用于备份数据
     private static final String TAG = "BackupUtils";
     // Singleton stuff
     private static BackupUtils sInstance;

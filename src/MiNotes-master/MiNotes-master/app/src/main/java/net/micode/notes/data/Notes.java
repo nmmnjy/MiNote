@@ -17,7 +17,7 @@
 package net.micode.notes.data;
 
 import android.net.Uri;
-public class Notes {
+public class Notes {//用于记录便签的数据库，记录便签中的数据
     public static final String AUTHORITY = "micode_notes";
     public static final String TAG = "Notes";
     public static final int TYPE_NOTE     = 0;

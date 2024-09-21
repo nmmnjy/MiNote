@@ -32,7 +32,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 
-public class Task extends Node {
+public class Task extends Node {//用于管理同步任务、将任务中的各种操作包装成JSON对象、获取同步信息
     private static final String TAG = Task.class.getSimpleName();
 
     private boolean mCompleted;

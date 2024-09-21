@@ -28,8 +28,14 @@ import net.micode.notes.R;
 import net.micode.notes.ui.NotesListActivity;
 import net.micode.notes.ui.NotesPreferenceActivity;
 
+/*
+ private void showNotification(int tickerId, String content) 向用户提示当前同步的状态，是一个用于交互的方法
+ protected Integer doInBackground(Void... unused) 此方法在后台线程执行，完成任务的主要工作，通常需要较长的时间
+ protected void onProgressUpdate(String... progress)  可以使用进度条增加用户体验度。 此方法在主线程执行，用于显示任务执行的进度。
+ protected void onPostExecute(Integer result)  相当于Handler 处理UI的方式，在这里面可以使用在doInBackground 得到的结果处理操作UI
+*/
 
-public class GTaskASyncTask extends AsyncTask<Void, String, Integer> {
+public class GTaskASyncTask extends AsyncTask<Void, String, Integer> {//异步操作类，用于实现Gtask的异步操作
 
     private static int GTASK_SYNC_NOTIFICATION_ID = 5234235;
 

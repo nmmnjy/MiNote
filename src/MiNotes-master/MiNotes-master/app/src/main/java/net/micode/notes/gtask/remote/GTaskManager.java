@@ -48,7 +48,7 @@ import java.util.Iterator;
 import java.util.Map;
 
 
-public class GTaskManager {
+public class GTaskManager {//Gtask管理，负责进行本地和远程Gtask的各种操作
     private static final String TAG = GTaskManager.class.getSimpleName();
 
     public static final int STATE_SUCCESS = 0;
@@ -111,6 +111,14 @@ public class GTaskManager {
         mActivity = activity;
     }
 
+    /**
+     * 核心函数
+     * 功能：实现了本地同步操作和远端同步操作
+     * @author TTS
+     * @param context-----获取上下文
+     * @param asyncTask-------用于同步的异步操作类
+     * @return int
+     */
     public int sync(Context context, GTaskASyncTask asyncTask) {
         if (mSyncing) {
             Log.d(TAG, "Sync is in progress");

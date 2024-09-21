@@ -30,7 +30,7 @@ import net.micode.notes.tool.DataUtils;
 import net.micode.notes.tool.ResourceParser.NoteItemBgResources;
 
 
-public class NotesListItem extends LinearLayout {
+public class NotesListItem extends LinearLayout {//便签列表项
     private ImageView mAlert;
     private TextView mTitle;
     private TextView mTime;

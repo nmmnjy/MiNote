@@ -31,7 +31,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 
 
-public class NotesListAdapter extends CursorAdapter {
+public class NotesListAdapter extends CursorAdapter {//便签列表链接器（链接数据库）
     private static final String TAG = "NotesListAdapter";
     private Context mContext;
     private HashMap<Integer, Boolean> mSelectedIndex;

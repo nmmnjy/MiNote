@@ -22,7 +22,7 @@ import android.preference.PreferenceManager;
 import net.micode.notes.R;
 import net.micode.notes.ui.NotesPreferenceActivity;
 
-public class ResourceParser {
+public class ResourceParser {//界面元素解析工具类，获取资源供程序调用
 
     public static final int YELLOW           = 0;
     public static final int BLUE             = 1;

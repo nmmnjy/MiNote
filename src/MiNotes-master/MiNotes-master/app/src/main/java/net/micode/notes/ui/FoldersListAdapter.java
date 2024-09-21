@@ -29,7 +29,7 @@ import net.micode.notes.data.Notes;
 import net.micode.notes.data.Notes.NoteColumns;
 
 
-public class FoldersListAdapter extends CursorAdapter {
+public class FoldersListAdapter extends CursorAdapter {//文件夹列表链接器（链接数据库）
     public static final String [] PROJECTION = {
         NoteColumns.ID,
         NoteColumns.SNIPPET

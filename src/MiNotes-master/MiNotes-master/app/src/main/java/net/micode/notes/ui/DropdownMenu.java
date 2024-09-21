@@ -27,7 +27,7 @@ import android.widget.PopupMenu.OnMenuItemClickListener;
 
 import net.micode.notes.R;
 
-public class DropdownMenu {
+public class DropdownMenu {//下拉菜单界面
     private Button mButton;
     private PopupMenu mPopupMenu;
     private Menu mMenu;

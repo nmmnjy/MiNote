@@ -23,7 +23,23 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.IBinder;
 
-public class GTaskSyncService extends Service {
+/*
+ * Service是在一段不定的时间运行在后台，不和用户交互的应用组件
+ * 主要方法：
+ * private void startSync()  启动一个同步工作
+ * private void cancelSync() 取消同步
+ * public void onCreate()
+ * public int onStartCommand(Intent intent, int flags, int startId)  service生命周期的组成部分，相当于重启service（比如在被暂停之后），而不是创建一个新的service
+ * public void onLowMemory()  在没有内存的情况下如果存在service则结束掉这的service
+ * public IBinder onBind()
+ * public void sendBroadcast(String msg)   发送同步的相关通知
+ * public static void startSync(Activity activity)
+ * public static void cancelSync(Context context)
+ * public static boolean isSyncing()  判读是否在进行同步
+ * public static String getProgressString()  获取当前进度的信息
+ */
+
+public class GTaskSyncService extends Service {//Gtask同步服务
     public final static String ACTION_STRING_NAME = "sync_action_type";
 
     public final static int ACTION_START_SYNC = 0;

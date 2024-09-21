@@ -30,7 +30,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 
-public class TaskList extends Node {
+public class TaskList extends Node {//同步任务列表、便于管理task任务
     private static final String TAG = TaskList.class.getSimpleName();
 
     private int mIndex;
@@ -43,7 +43,7 @@ public class TaskList extends Node {
         mIndex = 1;
     }
 
-    public JSONObject getCreateAction(int actionId) {
+    public JSONObject getCreateAction(int actionId) {//生成包含数据的JSONObject实体
         JSONObject js = new JSONObject();
 
         try {

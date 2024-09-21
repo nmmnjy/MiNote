@@ -16,7 +16,7 @@
 
 package net.micode.notes.tool;
 
-public class GTaskStringUtils {
+public class GTaskStringUtils {//同步任务字符串工具类，为JSONObject提供string对象
 
     public final static String GTASK_JSON_ACTION_ID = "action_id";
 

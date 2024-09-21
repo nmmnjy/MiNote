@@ -28,7 +28,7 @@ import net.micode.notes.data.Notes;
 import net.micode.notes.data.Notes.NoteColumns;
 
 
-public class AlarmInitReceiver extends BroadcastReceiver {
+public class AlarmInitReceiver extends BroadcastReceiver {//闹钟启动消息接收器
 
     private static final String [] PROJECTION = new String [] {
         NoteColumns.ID,

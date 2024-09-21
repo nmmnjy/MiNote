@@ -28,7 +28,7 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.NumberPicker;
 
-public class DateTimePicker extends FrameLayout {
+public class DateTimePicker extends FrameLayout {//设置提醒时间
 
     private static final boolean DEFAULT_ENABLE_STATE = true;
 

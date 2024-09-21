@@ -40,7 +40,7 @@ import net.micode.notes.tool.DataUtils;
 import java.io.IOException;
 
 
-public class AlarmAlertActivity extends Activity implements OnClickListener, OnDismissListener {
+public class AlarmAlertActivity extends Activity implements OnClickListener, OnDismissListener {//闹钟提醒界面
     private long mNoteId;
     private String mSnippet;
     private static final int SNIPPET_PREW_MAX_LEN = 60;

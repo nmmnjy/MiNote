@@ -20,7 +20,7 @@ import android.database.Cursor;
 
 import org.json.JSONObject;
 
-public abstract class Node {
+public abstract class Node {//定义同步操作常量，区分在本地或云端的各种操作、错误信息
     public static final int SYNC_ACTION_NONE = 0;
 
     public static final int SYNC_ACTION_ADD_REMOTE = 1;

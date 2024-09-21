@@ -25,16 +25,16 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 
-public class MetaData extends Task {
-    private final static String TAG = MetaData.class.getSimpleName();
+public class MetaData extends Task {//同步任务
+    private final static String TAG = MetaData.class.getSimpleName();//调用getSimpleName函数得到简单的类名
 
     private String mRelatedGid = null;
 
-    public void setMeta(String gid, JSONObject metaInfo) {
+    public void setMeta(String gid, JSONObject metaInfo) {//调用JSONObject库函数put ()，Task类中的setNotes ()和setName ()函数设置数据、生成元数据库
         try {
-            metaInfo.put(GTaskStringUtils.META_HEAD_GTASK_ID, gid);
+            metaInfo.put(GTaskStringUtils.META_HEAD_GTASK_ID, gid);//存放键值对
         } catch (JSONException e) {
-            Log.e(TAG, "failed to put related gid");
+            Log.e(TAG, "failed to put related gid");//打印错误信息
         }
         setNotes(metaInfo.toString());
         setName(GTaskStringUtils.META_NOTE_NAME);

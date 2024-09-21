@@ -16,7 +16,7 @@
 
 package net.micode.notes.gtask.exception;
 
-public class ActionFailureException extends RuntimeException {
+public class ActionFailureException extends RuntimeException {//小米便签运行过程中的运行异常处理
     private static final long serialVersionUID = 4425249765923293627L;
 
     public ActionFailureException() {
@@ -27,7 +27,7 @@ public class ActionFailureException extends RuntimeException {
         super(paramString);
     }
 
-    public ActionFailureException(String paramString, Throwable paramThrowable) {
+    public ActionFailureException(String paramString, Throwable paramThrowable) {//用super来引用父类成分、用this引用当前对象
         super(paramString, paramThrowable);
     }
 }

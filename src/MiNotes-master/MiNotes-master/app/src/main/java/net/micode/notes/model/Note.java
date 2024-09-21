@@ -34,7 +34,7 @@ import net.micode.notes.data.Notes.TextNote;
 import java.util.ArrayList;
 
 
-public class Note {
+public class Note {//单个便签项模型
     private ContentValues mNoteDiffValues;
     private NoteData mNoteData;
     private static final String TAG = "Note";

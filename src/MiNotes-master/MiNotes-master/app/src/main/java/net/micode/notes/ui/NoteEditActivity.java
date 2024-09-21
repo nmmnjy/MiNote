@@ -73,7 +73,7 @@ import java.util.regex.Pattern;
 
 
 public class NoteEditActivity extends Activity implements OnClickListener,
-        NoteSettingChangedListener, OnTextViewChangeListener {
+        NoteSettingChangedListener, OnTextViewChangeListener {//便签编辑器
     private class HeadViewHolder {
         public TextView tvModified;
 

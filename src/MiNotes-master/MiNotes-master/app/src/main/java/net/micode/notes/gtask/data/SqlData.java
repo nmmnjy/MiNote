@@ -35,7 +35,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 
-public class SqlData {
+public class SqlData {//对小米便签底层数据库进行操作、sqlNote是sqlData的子集（节点），sqlData可以看作是数据的数据
     private static final String TAG = SqlData.class.getSimpleName();
 
     private static final int INVALID_ID = -99999;
@@ -71,7 +71,7 @@ public class SqlData {
 
     private ContentValues mDiffDataValues;
 
-    public SqlData(Context context) {
+    public SqlData(Context context) {//一系列用于初始化数据的构造函数和数据处理函数
         mContentResolver = context.getContentResolver();
         mIsCreate = true;
         mDataId = INVALID_ID;

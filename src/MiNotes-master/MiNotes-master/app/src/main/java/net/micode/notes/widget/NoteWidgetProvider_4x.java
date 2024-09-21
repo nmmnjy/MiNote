@@ -24,7 +24,7 @@ import net.micode.notes.data.Notes;
 import net.micode.notes.tool.ResourceParser;
 
 
-public class NoteWidgetProvider_4x extends NoteWidgetProvider {
+public class NoteWidgetProvider_4x extends NoteWidgetProvider {//4倍大小的桌面挂件
     @Override
     public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
         super.update(context, appWidgetManager, appWidgetIds);

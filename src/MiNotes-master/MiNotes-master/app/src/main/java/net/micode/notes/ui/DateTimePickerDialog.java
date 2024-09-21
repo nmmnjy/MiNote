@@ -29,7 +29,7 @@ import android.content.DialogInterface.OnClickListener;
 import android.text.format.DateFormat;
 import android.text.format.DateUtils;
 
-public class DateTimePickerDialog extends AlertDialog implements OnClickListener {
+public class DateTimePickerDialog extends AlertDialog implements OnClickListener {//设置提醒时间的对话框界面
 
     private Calendar mDate = Calendar.getInstance();
     private boolean mIs24HourView;
